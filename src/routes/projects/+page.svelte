@@ -2,4 +2,9 @@
   <title>Darren Sim | Projects</title>
 </svelte:head>
 
-<div>Projects</div>
+<div class="projects-container">
+  <h1>My Projects</h1>
+</div>
+
+<style>
+</style>

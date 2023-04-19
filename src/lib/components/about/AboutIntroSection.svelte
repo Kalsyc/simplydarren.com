@@ -35,10 +35,12 @@
       <br />
       You may contact me at <a href="mailto:kalsycofficial@gmail.com">kalsycofficial@gmail.com</a>. I always appreciate making new friends :D
       <br />
-      Other Links:
-      <a href="https://www.linkedin.com/in/kalsyc/">LinkedIn</a>
-      <a href="https://github.com/Kalsyc">GitHub</a>
     </p>
+    Other Links:
+    <ul>
+      <li><a href="https://www.linkedin.com/in/kalsyc/">LinkedIn</a></li>
+      <li><a href="https://github.com/Kalsyc">GitHub</a></li>
+    </ul>
   </div>
   <div class="about-evie-section__selfie">
     <img alt="" class="selfie__img" src={evieSelfie} />
@@ -75,12 +77,12 @@
     grid-area: a;
   }
 
-  .about-evie-section__writeup > p > a {
+  .about-evie-section__writeup > ul > li > a {
     text-decoration: underline;
     font-weight: 700;
   }
 
-  .about-evie-section__writeup > p > a:hover {
+  .about-evie-section__writeup > ul > li > a:hover {
     cursor: pointer;
     opacity: 0.5;
   }
