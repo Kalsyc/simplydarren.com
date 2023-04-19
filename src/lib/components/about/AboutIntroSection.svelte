@@ -34,6 +34,10 @@
       <br />
       <br />
       You may contact me at <a href="mailto:kalsycofficial@gmail.com">kalsycofficial@gmail.com</a>. I always appreciate making new friends :D
+      <br />
+      Other Links:
+      <a href="https://www.linkedin.com/in/kalsyc/">LinkedIn</a>
+      <a href="https://github.com/Kalsyc">GitHub</a>
     </p>
   </div>
   <div class="about-evie-section__selfie">
@@ -74,6 +78,11 @@
   .about-evie-section__writeup > p > a {
     text-decoration: underline;
     font-weight: 700;
+  }
+
+  .about-evie-section__writeup > p > a:hover {
+    cursor: pointer;
+    opacity: 0.5;
   }
 
   .about-intro-section__selfie {

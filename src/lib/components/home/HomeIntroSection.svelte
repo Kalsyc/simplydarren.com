@@ -11,6 +11,13 @@
       <br />
       When I'm not creating amazing digital experiences, I enjoy teaching and exploring new tech! 😺 Feel free to explore my work and passions on this
       site. Enjoy! 🎉
+      <br />
+      <br />
+      You may contact me at <a href="mailto:kalsycofficial@gmail.com">kalsycofficial@gmail.com</a>. I always appreciate making new friends :D
+      <br />
+      Other Links:
+      <a href="https://www.linkedin.com/in/kalsyc/">LinkedIn</a>
+      <a href="https://github.com/Kalsyc">GitHub</a>
     </p>
   </div>
   <div class="home-intro-section__selfie">
@@ -30,6 +37,16 @@
 
   .home-intro-section__writeup {
     text-align: justify;
+  }
+
+  .home-intro-section__writeup > p > a {
+    text-decoration: underline;
+    font-weight: 700;
+  }
+
+  .home-intro-section__writeup > p > a:hover {
+    cursor: pointer;
+    opacity: 0.5;
   }
 
   .home-intro-section__selfie {
