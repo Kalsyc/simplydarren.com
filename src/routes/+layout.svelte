@@ -1,25 +1,48 @@
 <script lang="ts">
   import Header from '$lib/components/header/Header.svelte';
-  import { getItemInLocal } from '$lib/services/localStorage.service';
-
-  const dataTheme = getItemInLocal('data-theme');
-  if (dataTheme) {
-    document.documentElement.setAttribute('data-theme', dataTheme ? 'Dark' : '');
-  }
 </script>
 
-<div class="layout-div">
-  <div class="header-div">
+<div class="layout">
+  <header class="layout__section">
     <Header />
-  </div>
-  <div class="content-div">
+  </header>
+  <main class="layout__main">
     <slot />
-  </div>
+  </main>
 </div>
 
 <style>
-  .layout-div {
-    height: 100%;
+  .layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .layout__section {
+    height: var(--navbar-height);
     width: 100%;
+    border-bottom: 0.1rem solid var(--secondary-color);
+    position: fixed;
+  }
+
+  .layout__main {
+    margin-top: var(--navbar-height);
+    width: 100%;
+    padding: 2rem;
+  }
+
+  @media screen and (min-width: 600px) {
+    .layout__section {
+      position: relative;
+      border-bottom: none;
+      height: fit-content;
+      padding: 2rem;
+    }
+
+    .layout__main {
+      margin-top: 0;
+    }
   }
 </style>
