@@ -72,12 +72,12 @@
 
   .left__routes {
     display: flex;
-    gap: 0.5rem;
+    gap: 2rem;
     padding: 1rem;
   }
 
   .routes__anchor--active {
-    border-bottom: 0.1rem solid;
+    border-bottom: 0.2rem solid;
     border-bottom-color: var(--secondary-color);
   }
 
