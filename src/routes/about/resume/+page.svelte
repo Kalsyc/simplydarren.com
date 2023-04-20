@@ -23,6 +23,7 @@
     -moz-animation: flickerAnimation 2s infinite;
     -o-animation: flickerAnimation 2s infinite;
     animation: flickerAnimation 2s infinite;
+    text-align: center;
   }
   .resume-anchor:hover {
     cursor: pointer;
