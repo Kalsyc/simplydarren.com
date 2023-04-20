@@ -2,4 +2,9 @@
   <title>Darren Sim | Games</title>
 </svelte:head>
 
-<div>Games</div>
+<div class="games-container">
+  <h1>My Games</h1>
+</div>
+
+<style>
+</style>

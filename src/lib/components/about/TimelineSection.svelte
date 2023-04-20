@@ -22,16 +22,25 @@
         dateRange: 'August',
       },
     ],
+    2019: [
+      {
+        desc: [
+          'Took on responsibilities as an Undergraduate Teaching Assistant (TA)',
+          'Taught CS1010S/X, CS3240, CS4240 modules over 3 years with 100+ students under my charge in total',
+        ],
+        dateRange: 'January 2019 - May 2022',
+      },
+    ],
     2020: [
       {
         desc: ['Started at WaveScan Technologies Pte. Ltd. as a UI/UX Developer Intern'],
-        dateRange: 'May - December',
+        dateRange: 'May 2020 - December 2020',
       },
     ],
     2021: [
       {
         desc: ['Joined STUCK Design Pte. Ltd. as a Full-Stack Developer Intern'],
-        dateRange: 'May - September',
+        dateRange: 'May 2021 - September 2021',
       },
     ],
     2022: [
@@ -44,7 +53,7 @@
       },
       {
         desc: ['Joined back WaveScan Technologies Pte. Ltd. as a full-time Software Engineer'],
-        dateRange: 'June',
+        dateRange: 'June 2022 - April 2023',
       },
     ],
     2023: [
