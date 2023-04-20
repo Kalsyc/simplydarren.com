@@ -20,6 +20,7 @@
     <ul>
       <li><a href="https://www.linkedin.com/in/kalsyc/">LinkedIn</a></li>
       <li><a href="https://github.com/Kalsyc">GitHub</a></li>
+      <li><a href="about/resume">My Resume</a></li>
     </ul>
   </div>
   <div class="home-intro-section__selfie">
