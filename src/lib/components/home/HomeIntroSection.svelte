@@ -30,7 +30,7 @@
 <style>
   .home-intro-section {
     display: grid;
-    grid-template-rows: 3fr 2fr;
+    grid-template-rows: 2fr 1fr;
     grid-template-columns: 1fr;
     justify-items: center;
     align-items: center;

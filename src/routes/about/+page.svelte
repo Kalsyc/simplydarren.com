@@ -1,5 +1,6 @@
 <script lang="ts">
   import AboutIntroSection from '$lib/components/about/AboutIntroSection.svelte';
+  import TimelineSection from '$lib/components/about/TimelineSection.svelte';
 </script>
 
 <svelte:head>
@@ -8,6 +9,7 @@
 
 <div class="about-container">
   <AboutIntroSection />
+  <TimelineSection />
 </div>
 
 <style>

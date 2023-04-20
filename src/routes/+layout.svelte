@@ -3,7 +3,7 @@
 </script>
 
 <div class="layout">
-  <header class="layout__section">
+  <header class="layout__header">
     <Header />
   </header>
   <main class="layout__main">
@@ -20,12 +20,13 @@
     margin: 0 auto;
   }
 
-  .layout__section {
+  .layout__header {
     height: var(--navbar-height);
     width: 100%;
     border-bottom: 0.1rem solid var(--secondary-color);
     position: fixed;
     background-color: var(--primary-color);
+    z-index: 5;
   }
 
   .layout__main {
@@ -35,7 +36,7 @@
   }
 
   @media screen and (min-width: 600px) {
-    .layout__section {
+    .layout__header {
       position: relative;
       border-bottom: none;
       height: fit-content;
