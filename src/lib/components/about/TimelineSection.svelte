@@ -75,7 +75,9 @@
           <h3>{yearEntry[0]}</h3>
           {#each yearEntry[1] as descEntry}
             <section>
-              <h4>{descEntry.dateRange}</h4>
+              {#if descEntry.dateRange}
+                <h4>{descEntry.dateRange}</h4>
+              {/if}
               <ul>
                 {#each descEntry.desc as desc}
                   <li>{desc}</li>
