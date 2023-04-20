@@ -1,0 +1,43 @@
+html,
+body {
+  font-family: 'Titillium Web', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  color: var(--font-color);
+  background-color: var(--primary-color);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #ffd8d8;
+  --secondary-color: #ffa5a5;
+  --font-color: #302939;
+  --navbar-height: 64px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #0f171f;
+    --secondary-color: #40364d;
+    --font-color: #ffd8d8;
+  }
+}
+
+[data-theme='Dark'] {
+  --primary-color: #0f171f;
+  --secondary-color: #40364d;
+  --font-color: #ffd8d8;
+}
+
+[data-theme='Light'] {
+  --primary-color: #ffd8d8;
+  --secondary-color: #ffa5a5;
+  --font-color: #302939;
+}
