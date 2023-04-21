@@ -8,11 +8,9 @@
 
 ## Preface
 
-CULLinary2 is a student game project from the module CS4350: Game Development Project @ National University of Singapore (NUS). I took this module in AY21/22 Semester 1 under Prof Anand Bhojan. It is the follow-up game to the previous semester's showcase-winning CULLinary which you can check it out [here](https://www.simplydarren.com/projects/CULLinary).
+CULLinary2 is a student game project from the module CS4350: Game Development Project @ National University of Singapore (NUS). I took this module in AY21/22 Semester 1 under Prof Anand Bhojan. It is the follow-up game to the previous semester's showcase-winning CULLinary.
 
-This page features some of my team's (Team Angry Eggplant) notes from my perspective (when I am free enough to write). Feel free to read or...
-
-[Play the game right away here on your browser](https://www.simplydarren.com/projects/cull2)
+This page features some of my team's (Team Angry Eggplant) notes from my perspective (when I am free enough to write). Feel free to read or play the game via the _Games_ page
 
 _Note that the game can only be played on modern browsers on your desktop such as Chrome/Safari/Firefox._
 
@@ -77,8 +75,6 @@ My personal contributions include getting the save system and database up, playe
 The game can either be played on the browser or via an executable (Available on Windows, MacOS) which can be downloaded from the Releases on our GitHub repository/Itch.io page.
 
 [Trailer](https://www.youtube.com/watch?v=G_uVAnabw4Q)
-
-[Game (Browser)](https://www.simplydarren.com/projects/cull2)
 
 [GitHub Repo](https://github.com/AngryEggplantStudios/CULLinary2)
 

@@ -62,8 +62,6 @@ The game can either be played on the browser or via an executable (Available on 
 
 [Trailer](https://www.youtube.com/watch?v=SKpQ_maMmHE)
 
-[Game (Browser)](https://www.simplydarren.com/projects/cull1)
-
 [GitHub Repo](https://github.com/AngryEggplantStudios/CULLinary)
 
 [iSTePS Entry](https://uvents.nus.edu.sg/event/18th-steps/module/CS3247/project/7)
