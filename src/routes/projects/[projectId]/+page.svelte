@@ -3,14 +3,19 @@
   import { projectsObj } from '$lib/constants/projects';
 
   const projectInfo = projectsObj[$page.params['projectId']];
+
+  export let data: {
+    slug: string;
+    post: string;
+  };
 </script>
 
 <svelte:head>
   <title>{projectInfo.title}</title>
 </svelte:head>
 
-<h1>Description coming soon!</h1>
-<div>{projectInfo.title}</div>
+<a href="/projects">{'<'} Back</a>
+{@html data.post}
 
 <style>
 </style>

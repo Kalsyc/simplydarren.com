@@ -10,16 +10,4 @@
 
 <AboutIntroSection />
 <WorkExperienceSection />
-<a class="work-experience-title__anchor" href="about/resume">{'>'} Click here to see a more detailed resume!</a>
 <TimelineSection />
-
-<style>
-  .work-experience-title__anchor {
-    text-decoration: underline;
-  }
-
-  .work-experience-title__anchor:hover {
-    cursor: pointer;
-    opacity: 50%;
-  }
-</style>
