@@ -9,4 +9,11 @@
 <svelte:head>
   <title>{gameInfo.headTitle}</title>
 </svelte:head>
+<div class="game-title">{gameInfo.headTitle}</div>
 <GameFrame {gameInfo} />
+
+<style>
+  .game-title {
+    text-align: center;
+  }
+</style>
