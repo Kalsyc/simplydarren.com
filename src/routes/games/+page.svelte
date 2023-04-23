@@ -1,4 +1,5 @@
 <script lang="ts">
+  import LinkButton from '$lib/components/button/LinkButton.svelte';
   import { fade } from 'svelte/transition';
 </script>
 
@@ -20,16 +21,31 @@
     the game with a more responsive canvas. Alternatively, you can download the game on <a href="https://angryeggplant.itch.io/">itch.io</a>.
     <br />
     <br />
-    <a href="games/0">CULLinary</a>
-    <br />
-    <br />
-    <a href="games/1">CULLinary 2</a>
   </p>
+  <div class="games-container__links">
+    <LinkButton href="games/CULLinary">CULLinary</LinkButton>
+    <LinkButton href="games/CULLinary2">CULLinary 2</LinkButton>
+  </div>
 </div>
 
 <style>
   a:hover {
     cursor: pointer;
     opacity: 0.5;
+  }
+
+  .games-container__links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  @media screen and (min-width: 600px) {
+    .games-container__links {
+      flex-direction: row;
+      justify-content: flex-start;
+    }
   }
 </style>
