@@ -13,6 +13,7 @@
       Development, Testing (Unit, Component, Integration, End-to-end), Responsive Design, Agile Methodology & Sprint Planning
     </li>
   </ul>
+  <br />
 </div>
 
 <style>
