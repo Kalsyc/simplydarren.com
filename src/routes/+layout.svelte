@@ -30,6 +30,7 @@
   }
 
   .layout__main {
+    position: relative;
     margin-top: var(--navbar-height);
     width: 100%;
     padding: 1rem 2rem;
@@ -40,11 +41,13 @@
       position: relative;
       border-bottom: none;
       height: fit-content;
+      width: calc(100% - 4rem);
       padding: 1rem 2rem;
     }
 
     .layout__main {
       margin-top: 0;
+      width: calc(100% - 4rem);
     }
   }
 </style>
