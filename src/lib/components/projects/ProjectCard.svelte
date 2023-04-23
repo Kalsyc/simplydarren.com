@@ -7,7 +7,9 @@
 <a class="img-anchor" href={`/projects/${projectInfo.id}`}>
   {#if projectInfo.isVid}
     <video class="img-anchor__img" autoplay loop muted playsinline>
-      <source src={projectInfo.img} type="video/mp4" />
+      <source src={projectInfo.webm} type="video/webm" />
+      <source src={projectInfo.mp4} type="video/mp4" />
+      <img src={projectInfo.gif} alt={projectInfo.title} title="Your browser does not support the <video> tag" />
     </video>
   {:else}
     <img class="img-anchor__img" alt="" src={projectInfo.img} />
