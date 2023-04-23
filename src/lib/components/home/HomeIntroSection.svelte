@@ -1,5 +1,6 @@
 <script lang="ts">
   import homeSelfie from '$lib/assets/img/home-img.jpg';
+  import ContactInfo from '$lib/components/home/ContactInfo.svelte';
 </script>
 
 <div class="home-intro-section">
@@ -13,15 +14,11 @@
       site. Enjoy! 🎉
       <br />
       <br />
-      You may contact me at <a href="mailto:kalsycofficial@gmail.com">kalsycofficial@gmail.com</a>. I always appreciate making new friends :D
-      <br />
+      You may contact me at <a class="home-intro-section__mail" href="mailto:kalsycofficial@gmail.com">kalsycofficial@gmail.com</a>. I always
+      appreciate making new friends :D
     </p>
-    Other Links:
-    <ul>
-      <li><a href="https://www.linkedin.com/in/kalsyc/">LinkedIn</a></li>
-      <li><a href="https://github.com/Kalsyc">GitHub</a></li>
-      <li><a href="about/resume">My Resume</a></li>
-    </ul>
+    <br />
+    <ContactInfo />
   </div>
   <div class="home-intro-section__selfie">
     <img alt="" class="selfie__img" src={homeSelfie} />
@@ -38,18 +35,12 @@
     gap: 1rem;
   }
 
+  .home-intro-section__mail {
+    text-decoration: underline;
+  }
+
   .home-intro-section__writeup {
     text-align: justify;
-  }
-
-  .home-intro-section__writeup > ul > li > a {
-    text-decoration: underline;
-    font-weight: 700;
-  }
-
-  .home-intro-section__writeup > ul > li > a:hover {
-    cursor: pointer;
-    opacity: 0.5;
   }
 
   .home-intro-section__selfie {

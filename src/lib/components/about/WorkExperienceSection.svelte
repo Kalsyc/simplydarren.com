@@ -15,6 +15,7 @@
     <ul>
       {#each info.desc as desc}
         <li>{desc}</li>
+        <br />
       {/each}
     </ul>
     <br />

@@ -1,6 +1,7 @@
 <script lang="ts">
   import { page } from '$app/stores';
   import { projectsObj } from '$lib/constants/projects';
+  import { fade } from 'svelte/transition';
 
   const projectInfo = projectsObj[$page.params['projectId']];
 
@@ -14,8 +15,10 @@
   <title>{projectInfo.title}</title>
 </svelte:head>
 
-<a href="/projects">{'<'} Back</a>
-{@html data.post}
+<div in:fade>
+  <a href="/projects">{'<'} Back</a>
+  {@html data.post}
+</div>
 
 <style>
 </style>

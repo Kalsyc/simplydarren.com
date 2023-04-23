@@ -3,75 +3,33 @@
   import PersonalInfoSection from '$lib/components/about/PersonalInfoSection.svelte';
   import SkillsSection from '$lib/components/about/SkillsSection.svelte';
   import WorkExperienceSection from '$lib/components/about/WorkExperienceSection.svelte';
+  import LinkButton from '$lib/components/button/LinkButton.svelte';
+  import { fade } from 'svelte/transition';
 </script>
 
 <svelte:head>
   <title>Darren Sim | Resume</title>
 </svelte:head>
 
-<a class="resume-anchor" href="https://drive.google.com/file/d/1uallXZj8wpoAAIBwjaZCR1lQHsHU78Ec/view?usp=sharing"
-  >Prefer a pdf version? Click here instead!</a
->
-<PersonalInfoSection />
-<SkillsSection />
-<WorkExperienceSection />
-<EducationSection />
+<div in:fade>
+  <div class="resume-link">
+    <LinkButton href="https://drive.google.com/file/d/1uallXZj8wpoAAIBwjaZCR1lQHsHU78Ec/view?usp=sharing">PDF Version</LinkButton>
+  </div>
+  <PersonalInfoSection />
+  <SkillsSection />
+  <WorkExperienceSection />
+  <EducationSection />
+</div>
 
 <style>
-  .resume-anchor {
-    -webkit-animation: flickerAnimation 2s infinite;
-    -moz-animation: flickerAnimation 2s infinite;
-    -o-animation: flickerAnimation 2s infinite;
-    animation: flickerAnimation 2s infinite;
+  .resume-link {
     text-align: center;
-  }
-  .resume-anchor:hover {
-    cursor: pointer;
-    opacity: 0.5;
+    margin: 1rem 0;
   }
 
-  @keyframes flickerAnimation {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.5;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @-o-keyframes flickerAnimation {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.5;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @-moz-keyframes flickerAnimation {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.5;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @-webkit-keyframes flickerAnimation {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.5;
-    }
-    100% {
-      opacity: 1;
+  @media screen and (min-width: 600px) {
+    .resume-link {
+      text-align: left;
     }
   }
 </style>
