@@ -13,7 +13,7 @@
 
 <div in:fade>
   <div class="resume-link">
-    <LinkButton href="https://drive.google.com/file/d/1uallXZj8wpoAAIBwjaZCR1lQHsHU78Ec/view?usp=sharing">PDF Version</LinkButton>
+    <LinkButton href="https://drive.google.com/file/d/1xCxyz5wnm19_UqiD0UG5tGIhg2xzNZXy/view?usp=sharing">PDF Version</LinkButton>
   </div>
   <PersonalInfoSection />
   <SkillsSection />
