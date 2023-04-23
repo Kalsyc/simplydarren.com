@@ -3,7 +3,9 @@
 <h2 align="center">Dungeon Crawler and Restaurant Simulator</h2>
 
 <p align="center">
-  <img alt="" style="margin: 0 auto; object-fit:fill; max-width:700px" src="/markdown-img/cullinary2/cullinary2-gif.gif" width="90%" height="auto" />
+<video style="margin: 0 auto; object-fit:fill; max-width:700px" autoplay loop muted playsinline>
+  <source src="/markdown-img/cullinary2/cullinary2-vid.mp4" type="video/mp4" />
+</video >
 </p>
 
 ## Preface
