@@ -3,10 +3,10 @@
 <h2 align="center">Dungeon Crawler and Restaurant Simulator</h2>
 
 <p align="center">
-<video style="margin: 0 auto; object-fit:fill; max-width:700px" autoplay loop muted playsinline poster="/markdown-img/cullinary2/cullinary2-gif.gif">
+<video style="margin: 0 auto; object-fit:fill; max-width:700px; width: 100%" autoplay loop muted playsinline poster="/markdown-img/cullinary2/cullinary2-gif.gif">
   <source src="/markdown-img/cullinary2/cullinary2-webm.webm" type="video/webm" />
   <source src="/markdown-img/cullinary2/cullinary2-vid.mp4" type="video/mp4" />
-  <img src="/markdown-img/cullinary2/cullinary2-gif.gif" alt="CULLinary2" title="Your browser does not support the <video> tag" />
+  <img style="margin: 0 auto; object-fit:fill; max-width:700px; width: 100%" src="/markdown-img/cullinary2/cullinary2-gif.gif" alt="CULLinary2" title="Your browser does not support the <video> tag" />
 </video >
 </p>
 
@@ -47,23 +47,23 @@ Inventory management? Time crunch? Fetch quests? CULLinary 2 has them all.
 **_To be updated_**
 
 <p align="center">
-  <img alt="" style="margin: 0 auto; object-fit:fill; max-width:500px" src="/markdown-img/cullinary2/aoe.png" width="90%" height="auto" />
+  <img alt="" style="margin: 0 auto; object-fit:fill; max-width:500px; width: 100%" src="/markdown-img/cullinary2/aoe.png" width="90%" height="auto" />
 </p>
 
 <p align="center">
-  <img alt="" style="margin: 0 auto; object-fit:fill; max-width:500px" src="/markdown-img/cullinary2/aoe2.png" width="90%" height="auto" />
+  <img alt="" style="margin: 0 auto; object-fit:fill; max-width:500px; width: 100%" src="/markdown-img/cullinary2/aoe2.png" width="90%" height="auto" />
 </p>
 
 <p align="center">
-  <img alt="" style="margin: 0 auto; object-fit:fill; max-width:500px" src="/markdown-img/cullinary2/env.jpeg" width="90%" height="auto" />
+  <img alt="" style="margin: 0 auto; object-fit:fill; max-width:500px; width: 100%" src="/markdown-img/cullinary2/env.jpeg" width="90%" height="auto" />
 </p>
 
 <p align="center">
-  <img alt="" style="margin: 0 auto; object-fit:fill; max-width:500px" src="/markdown-img/cullinary2/env2.jpeg" width="90%" height="auto" />
+  <img alt="" style="margin: 0 auto; object-fit:fill; max-width:500px; width: 100%" src="/markdown-img/cullinary2/env2.jpeg" width="90%" height="auto" />
 </p>
 
 <p align="center">
-  <img alt="" style="margin: 0 auto; object-fit:fill; max-width:500px" src="/markdown-img/cullinary2/orders.jpeg" width="90%" height="auto" />
+  <img alt="" style="margin: 0 auto; object-fit:fill; max-width:500px; width: 100%" src="/markdown-img/cullinary2/orders.jpeg" width="90%" height="auto" />
 </p>
 
 ## Technical Details
