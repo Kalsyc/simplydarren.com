@@ -18,7 +18,6 @@
         <br />
       {/each}
     </ul>
-    <br />
   </div>
 {/each}
 
