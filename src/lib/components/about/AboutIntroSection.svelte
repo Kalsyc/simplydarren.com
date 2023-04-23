@@ -9,8 +9,11 @@
   <div class="about-intro-section__writeup">
     <h1>About me</h1>
     <p>
-      I'm Darren Sim, a fun-loving and creative Software Engineer based in the vibrant city of Singapore. I specialize in crafting top-notch Web
-      Development and UI/UX Design solutions, ensuring that my projects not only look great but also provide an exceptional user experience. 🚀
+      I'm Darren Sim, a fun-loving and creative Software Engineer based in the vibrant city of Singapore.
+      <br />
+      <br />
+      I specialize in crafting top-notch Web Development and UI/UX Design solutions, ensuring that my projects not only look great but also provide an
+      exceptional user experience. 🚀
       <br />
       <br />
       When I'm not busy building awesome digital experiences, you can find me sharing my knowledge through teaching, or diving headfirst into exciting

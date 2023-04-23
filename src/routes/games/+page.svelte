@@ -1,8 +1,12 @@
+<script lang="ts">
+  import { fade } from 'svelte/transition';
+</script>
+
 <svelte:head>
   <title>Darren Sim | Games</title>
 </svelte:head>
 
-<div class="games-container">
+<div class="games-container" in:fade>
   <h1>My Games</h1>
   <p>
     Like the previous iterations of my website, you get to play CULLinary on the browser for free as always :D

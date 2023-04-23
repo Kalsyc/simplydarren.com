@@ -3,19 +3,22 @@
   import PersonalInfoSection from '$lib/components/about/PersonalInfoSection.svelte';
   import SkillsSection from '$lib/components/about/SkillsSection.svelte';
   import WorkExperienceSection from '$lib/components/about/WorkExperienceSection.svelte';
+  import { fade } from 'svelte/transition';
 </script>
 
 <svelte:head>
   <title>Darren Sim | Resume</title>
 </svelte:head>
 
-<a class="resume-anchor" href="https://drive.google.com/file/d/1uallXZj8wpoAAIBwjaZCR1lQHsHU78Ec/view?usp=sharing"
-  >Prefer a pdf version? Click here instead!</a
->
-<PersonalInfoSection />
-<SkillsSection />
-<WorkExperienceSection />
-<EducationSection />
+<div in:fade>
+  <a class="resume-anchor" href="https://drive.google.com/file/d/1uallXZj8wpoAAIBwjaZCR1lQHsHU78Ec/view?usp=sharing"
+    >Prefer a pdf version? Click here instead!</a
+  >
+  <PersonalInfoSection />
+  <SkillsSection />
+  <WorkExperienceSection />
+  <EducationSection />
+</div>
 
 <style>
   .resume-anchor {
