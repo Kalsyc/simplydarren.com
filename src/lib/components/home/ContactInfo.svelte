@@ -29,6 +29,7 @@
     object-fit: fill;
     height: 48px;
     width: 48px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
   }
 
   .github__icon,
