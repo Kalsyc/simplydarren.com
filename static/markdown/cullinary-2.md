@@ -3,8 +3,10 @@
 <h2 align="center">Dungeon Crawler and Restaurant Simulator</h2>
 
 <p align="center">
-<video style="margin: 0 auto; object-fit:fill; max-width:700px" autoplay loop muted playsinline>
+<video style="margin: 0 auto; object-fit:fill; max-width:700px" autoplay loop muted playsinline poster="/markdown-img/cullinary2/cullinary2-gif.gif">
+  <source src="/markdown-img/cullinary2/cullinary2-webm.webm" type="video/webm" />
   <source src="/markdown-img/cullinary2/cullinary2-vid.mp4" type="video/mp4" />
+  <img src="/markdown-img/cullinary2/cullinary2-gif.gif" alt="CULLinary2" title="Your browser does not support the <video> tag" />
 </video >
 </p>
 
