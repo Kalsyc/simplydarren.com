@@ -39,10 +39,6 @@
     text-decoration: underline;
   }
 
-  .home-intro-section__writeup {
-    text-align: justify;
-  }
-
   .home-intro-section__selfie {
     height: 200px;
     width: 200px;
