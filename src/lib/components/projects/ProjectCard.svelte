@@ -5,7 +5,13 @@
 </script>
 
 <a class="img-anchor" href={`/projects/${projectInfo.id}`}>
-  <img class="img-anchor__img" alt="" src={projectInfo.img} />
+  {#if projectInfo.isVid}
+    <video class="img-anchor__img" autoplay loop muted playsinline>
+      <source src={projectInfo.img} type="video/mp4" />
+    </video>
+  {:else}
+    <img class="img-anchor__img" alt="" src={projectInfo.img} />
+  {/if}
   <div class="img-anchor__project-info">
     <div class="project-info__tag">{projectInfo.tag}</div>
     <div class="project-info__title">{projectInfo.title}</div>
@@ -19,7 +25,7 @@
     height: 200px;
     position: relative;
     border: 0.25rem solid var(--secondary-color);
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 

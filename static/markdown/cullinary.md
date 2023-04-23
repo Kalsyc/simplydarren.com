@@ -3,7 +3,9 @@
 <h2 align="center">Dungeon Crawler and Restaurant Simulator</h2>
 
 <p align="center">
-  <img alt="" style="margin: 0 auto; object-fit:fill; max-width:700px" src="/markdown-img/cullinary/cullinary-gif.gif" width="90%" height="auto" />
+<video style="margin: 0 auto; object-fit:fill; max-width:700px" autoplay loop muted playsinline>
+  <source src="/markdown-img/cullinary/cullinary-vid.mp4" type="video/mp4" />
+</video >
 </p>
 
 ## Preface
@@ -37,15 +39,21 @@ As a result, the number of visitors to the town is declining rapidly, running yo
 **_To be updated_**
 
 <p align="center">
-  <img alt="" style="margin: 0 auto; object-fit:fill; max-width:500px" src="/markdown-img/cullinary/combat.gif" width="90%" height="auto" />
+<video style="margin: 0 auto; object-fit:fill; max-width:500px" autoplay loop muted playsinline>
+  <source src="/markdown-img/cullinary/combat.mp4" type="video/mp4" />
+</video >
 </p>
 
 <p align="center">
-  <img alt="" style="margin: 0 auto; object-fit:fill; max-width:500px" src="/markdown-img/cullinary/cook.gif" width="90%" height="auto" />
+<video style="margin: 0 auto; object-fit:fill; max-width:500px" autoplay loop muted playsinline>
+  <source src="/markdown-img/cullinary/cook.mp4" type="video/mp4" />
+</video >
 </p>
 
 <p align="center">
-  <img alt="" style="margin: 0 auto; object-fit:fill; max-width:500px" src="/markdown-img/cullinary/mapgen.gif" width="90%" height="auto" />
+<video style="margin: 0 auto; object-fit:fill; max-width:500px" autoplay loop muted playsinline>
+  <source src="/markdown-img/cullinary/mapgen.mp4" type="video/mp4" />
+</video >
 </p>
 
 ## Technical Details
