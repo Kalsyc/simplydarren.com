@@ -27,5 +27,3 @@ export const projectsObj: { [id: string]: ProjectInfo } = projects.reduce(
   (prevValue, currValue) => ((prevValue[currValue.id] = currValue), prevValue),
   {} as Record<string, ProjectInfo>,
 );
-
-console.log(projectsObj);

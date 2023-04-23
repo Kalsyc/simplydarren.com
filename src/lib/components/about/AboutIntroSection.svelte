@@ -1,6 +1,7 @@
 <script lang="ts">
   import aboutSelfie from '$lib/assets/img/about-img.jpg';
   import evieSelfie from '$lib/assets/img/evie-img.jpg';
+  import ContactInfo from '$lib/components/home/ContactInfo.svelte';
 
   const currentDate = new Date();
 </script>
@@ -36,15 +37,11 @@
       and I hope you'll enjoy your visit as much as I've enjoyed creating this space for you! 🎉
       <br />
       <br />
-      You may contact me at <a href="mailto:kalsycofficial@gmail.com">kalsycofficial@gmail.com</a>. I always appreciate making new friends :D
-      <br />
+      You may contact me at <a class="writeup__mail" href="mailto:kalsycofficial@gmail.com">kalsycofficial@gmail.com</a>. I always appreciate making
+      new friends :D
     </p>
-    Other Links:
-    <ul>
-      <li><a href="https://www.linkedin.com/in/kalsyc/">LinkedIn</a></li>
-      <li><a href="https://github.com/Kalsyc">GitHub</a></li>
-      <li><a href="about/resume">My Resume</a></li>
-    </ul>
+    <br />
+    <ContactInfo />
   </div>
   <div class="about-evie-section__selfie">
     <img alt="" class="selfie__img" src={evieSelfie} />
@@ -52,6 +49,10 @@
 </div>
 
 <style>
+  .writeup__mail {
+    text-decoration: underline;
+  }
+
   .about-intro-section {
     display: grid;
     grid-template-rows: 2fr 1fr;
@@ -79,16 +80,6 @@
   .about-evie-section__writeup {
     text-align: justify;
     grid-area: a;
-  }
-
-  .about-evie-section__writeup > ul > li > a {
-    text-decoration: underline;
-    font-weight: 700;
-  }
-
-  .about-evie-section__writeup > ul > li > a:hover {
-    cursor: pointer;
-    opacity: 0.5;
   }
 
   .about-intro-section__selfie {

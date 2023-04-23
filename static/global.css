@@ -1,5 +1,3 @@
-@import './node_modules/sal.js/dist/sal.css';
-
 html,
 body {
   font-family: 'Andika', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
@@ -15,8 +13,11 @@ body {
 :root {
   --primary-color: #ffd8d8;
   --secondary-color: #ffa5a5;
+  --action-color: #e2ac09;
+  --action-font-color: #1f1d1d;
   --font-color: #302939;
   --navbar-height: 64px;
+  --invert-value: 0;
 }
 
 a {
@@ -29,6 +30,9 @@ a {
     --primary-color: #0f171f;
     --secondary-color: #40364d;
     --font-color: #ffd8d8;
+    --invert-value: 1;
+    --action-color: #fdc210;
+    --action-font-color: #1f1d1d;
   }
 }
 
@@ -36,10 +40,16 @@ a {
   --primary-color: #0f171f;
   --secondary-color: #40364d;
   --font-color: #ffd8d8;
+  --invert-value: 1;
+  --action-color: #fdc210;
+  --action-font-color: #1f1d1d;
 }
 
 [data-theme='Light'] {
   --primary-color: #ffd8d8;
   --secondary-color: #ffa5a5;
   --font-color: #302939;
+  --invert-value: 0;
+  --action-color: #fdc210;
+  --action-font-color: #1f1d1d;
 }

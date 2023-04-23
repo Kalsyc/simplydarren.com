@@ -3,10 +3,6 @@
 
   export let gameInfo: GameInfo;
   let frame: HTMLIFrameElement;
-
-  function onLoadFrame() {
-    console.log(frame.style.width);
-  }
 </script>
 
 <div class="iframe-container">
@@ -19,7 +15,6 @@
     title={gameInfo.frameTitle}
     class="iframe-container__frame"
     allowFullScreen={true}
-    on:load={onLoadFrame}
   />
 </div>
 
