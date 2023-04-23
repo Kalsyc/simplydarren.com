@@ -73,12 +73,7 @@
     margin: 1rem 0;
   }
 
-  .about-intro-section__writeup {
-    text-align: justify;
-  }
-
   .about-evie-section__writeup {
-    text-align: justify;
     grid-area: a;
   }
 
