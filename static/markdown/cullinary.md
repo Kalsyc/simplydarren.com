@@ -3,8 +3,10 @@
 <h2 align="center">Dungeon Crawler and Restaurant Simulator</h2>
 
 <p align="center">
-<video style="margin: 0 auto; object-fit:fill; max-width:700px" autoplay loop muted playsinline>
+<video style="margin: 0 auto; object-fit:fill; max-width:700px" autoplay loop muted playsinline poster="/markdown-img/cullinary/cullinary-gif.gif">
+  <source src="/markdown-img/cullinary/cullinary-webm.webm" type="video/webm" />
   <source src="/markdown-img/cullinary/cullinary-vid.mp4" type="video/mp4" />
+  <img src="/markdown-img/cullinary/cullinary-gif.gif" alt="CULLinary" title="Your browser does not support the <video> tag" />
 </video >
 </p>
 
@@ -39,20 +41,26 @@ As a result, the number of visitors to the town is declining rapidly, running yo
 **_To be updated_**
 
 <p align="center">
-<video style="margin: 0 auto; object-fit:fill; max-width:500px" autoplay loop muted playsinline>
+<video style="margin: 0 auto; object-fit:fill; max-width:500px" autoplay loop muted playsinline poster="/markdown-img/cullinary/combat.gif">
+  <source src="/markdown-img/cullinary/combat.webm" type="video/webm" />
   <source src="/markdown-img/cullinary/combat.mp4" type="video/mp4" />
+  <img src="/markdown-img/cullinary/combat.gif" alt="CULLinary combat" title="Your browser does not support the <video> tag" />
 </video >
 </p>
 
 <p align="center">
-<video style="margin: 0 auto; object-fit:fill; max-width:500px" autoplay loop muted playsinline>
+<video style="margin: 0 auto; object-fit:fill; max-width:500px" autoplay loop muted playsinline poster="/markdown-img/cullinary/cook.gif">
+  <source src="/markdown-img/cullinary/cook.webm" type="video/webm" />
   <source src="/markdown-img/cullinary/cook.mp4" type="video/mp4" />
+  <img src="/markdown-img/cullinary/cook.gif" alt="CULLinary cook" title="Your browser does not support the <video> tag" />
 </video >
 </p>
 
 <p align="center">
-<video style="margin: 0 auto; object-fit:fill; max-width:500px" autoplay loop muted playsinline>
+<video style="margin: 0 auto; object-fit:fill; max-width:500px" autoplay loop muted playsinline poster="/markdown-img/cullinary/mapgen.gif">
+  <source src="/markdown-img/cullinary/mapgen.webm" type="video/webm" />
   <source src="/markdown-img/cullinary/mapgen.mp4" type="video/mp4" />
+  <img src="/markdown-img/cullinary/mapgen.gif" alt="CULLinary mapgen" title="Your browser does not support the <video> tag" />
 </video >
 </p>
 

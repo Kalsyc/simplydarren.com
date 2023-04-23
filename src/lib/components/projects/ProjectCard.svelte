@@ -65,11 +65,6 @@
     border-radius: 0.5rem;
   }
 
-  .img-anchor__project-info:hover {
-    opacity: 1;
-    background-color: rgba(0, 0, 0, 0.7);
-  }
-
   .project-info__tag {
     position: absolute;
     left: 1rem;
@@ -91,6 +86,11 @@
   @media screen and (min-width: 600px) {
     .img-anchor__title--mobile {
       opacity: 0;
+    }
+
+    .img-anchor__project-info:hover {
+      opacity: 1;
+      background-color: rgba(0, 0, 0, 0.7);
     }
   }
 </style>
