@@ -72,7 +72,7 @@
 
   .left__routes {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     padding: 1rem;
   }
 
