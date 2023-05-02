@@ -12,6 +12,19 @@ const config = {
     // If your environment is not supported or you settled on a specific environment, switch out the adapter.
     // See https://kit.svelte.dev/docs/adapters for more information about adapters.
     adapter: adapter(),
+    prerender: {
+      entries: [
+        '/games/CULLinary',
+        '/games/CULLinary2',
+        '/projects/cullinary-2',
+        '/projects/cullinary',
+        '/projects/digital-kampung',
+        '/projects/pet-saver',
+        '/projects/project-kampong',
+        '/projects/safe-space',
+        '/projects/xpire',
+      ],
+    },
   },
 };
 
