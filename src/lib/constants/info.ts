@@ -7,6 +7,13 @@ export interface experienceInfo {
 
 export const experienceInfoArr: experienceInfo[] = [
   {
+    designation: 'Software Engineer',
+    company: 'Singapore Airlines',
+    dateRange: 'Jun 2023 - Present',
+    desc: [
+    ],
+  },
+  {
     designation: 'Software Developer',
     company: 'WaveScan Technologies Pte. Ltd.',
     dateRange: 'June 2022 - April 2023',
@@ -110,8 +117,8 @@ export const timelineInfo: TimelineInfo = {
   ],
   2023: [
     {
-      desc: ['Currently looking for roles in Software Engineering'],
-      dateRange: 'April',
+      desc: ['Joined Singapore Airlines as a full-time Software Engineer'],
+      dateRange: 'June 2023 - Present',
     },
   ],
 };
